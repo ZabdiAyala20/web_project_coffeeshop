@@ -7,7 +7,7 @@
     <meta name="description" content="Un sitio web sobre recetas y reservaciones relacionadas con café.">
     <meta name="keywords" content="café, recetas, reservaciones, coffeebees, bebidas">
     <title>CoffeBees</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="vendor/normalize.css">
     <link rel="stylesheet" href="pages/index.css">
     <link rel="icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,12 +16,55 @@
   </head>
   <body>
 <div class="page">
-  <header></header>
+  <header class="header" id="header">
+    <nav class="nav">
+      <img
+        src="./images/logo_coffeeshop_dark.svg"
+        alt="Logotipo de Triple Espresso"
+        class="nav__logo"
+      />
+      <img
+        src="./images/background_header.svg"
+      class="nav__background_logo">
+
+      <ul class="nav__links">
+        <li>
+          <a class="nav__link" href="#Recetas"
+            >Recetas</a
+          >
+        </li>
+        <li><a class="nav__link" href="#events">Reservar una mesa</a></li>
+        <li>
+          <a class="nav__link" href="#membership">Contactos</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__content">
+      <div>
+        <h1 class="header__title">
+          <span class="text__title_blue">Café de especialidad</span> <br>en Triple Peaks
+        </h1>
+        <p class="header__description">
+          ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café para darte energía y motivar tu creatividad.
+        </p>
+      </div>
+      <div class="header__image-container">
+        <img
+          src="./images/inside_coffee_shop.png"
+          alt="Ilustración 'Dentro de la cafeteria"
+          class="header__image"
+        />
+      </div>
+    </div>
+    <div class="header__footer">
+      <p class="header__address">Avenida del Éxito 200, Ciudad Triple Peaks</p>
+    </div>
+  </header>
   <main class="content">
-    <div class="recipes"></div>
-    <div class="reservation"></div>
+    <section class="recipes"></section>
+    <section class="reservation"></section>
   </main>
-  <footer></footer>
+  <footer class="footer"></footer>
 </div>
   </body>
 </html>
