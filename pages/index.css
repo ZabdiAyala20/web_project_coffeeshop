@@ -66,13 +66,18 @@
   margin-left: 80px;
 }
 
-.text__title_blue {
+.text__title {
   font-weight: normal;
   font-size: 58px;
   line-height: 72px;
+
+}
+
+.text__title--blue {
   color: #2F80ED;
   font-style: italic;
 }
+
 
 .header__description {
   max-width: 683px;
