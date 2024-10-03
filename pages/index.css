@@ -7,6 +7,7 @@
   box-sizing: border-box;
   font-family: "Inter", Arial, sans-serif, "Noto Serif", "Times New Roman", serif;
 }
+
 .header {
   display: flex;
   flex-direction: column;
@@ -18,10 +19,12 @@
   background-image: url(../images/background_header.svg);
   background-size: cover;
 }
+
 .nav {
   display: flex;
   justify-content: space-between;
 }
+
 .nav__logo {
   display: flex;
   justify-items: flex-start;
@@ -30,6 +33,7 @@
   margin-top: 30px;
   margin-left: 30px;
 }
+
 .nav__links {
   display: flex;
   margin-top: 30px;
@@ -37,17 +41,20 @@
   gap: 20px;
   list-style-type: none;
 }
+
 .nav__link {
   color: #000000;
   text-decoration: none;
   font-weight: bold;
 }
+
 .header__content {
   z-index: 10;
   display: flex;
   justify-content: space-between;
   margin-left: 80px;
 }
+
 .header__title {
   margin-top: 183px;
   max-width: 709px;
@@ -58,7 +65,8 @@
   letter-spacing: 1px;
   margin-left: 80px;
 }
-.text__title_blue{
+
+.text__title_blue {
   font-weight: normal;
   font-size: 58px;
   line-height: 72px;
@@ -72,29 +80,32 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
- margin-left: 80px;
+  margin-left: 80px;
 }
-.header__image_container{
-display: flex;
-justify-content: flex-end;
-margin-right: 5px;
+
+.header__image-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5px;
 }
+
 .header__image {
   display: flex;
   width: 646px;
   max-width: 636px;
   max-height: 568px;
-margin-right: 5px;
+  margin-right: 5px;
 }
+
 .header__footer {
   display: flex;
-justify-content: space-between;
-align-items: center;
-
+  justify-content: space-between;
+  align-items: center;
 }
-  .header__shedules{
-    flex-direction: column;
-    list-style-type: none;
+
+.header__shedules {
+  flex-direction: column;
+  list-style-type: none;
   display: flex;
   justify-content: flex-start;
   font-style: normal;
@@ -105,70 +116,80 @@ align-items: center;
   margin-bottom: 40px;
   margin-left: 80px;
 }
-.header__address{
+
+.header__address {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #838383;
 }
+
 .header__link {
   color: #2f80ed;
   text-decoration: none;
 }
-.content{
+
+.content {
   display: block;
   margin: auto;
   height: 100vh;
 }
-.recipes{
- display:block;
- background-color: #1f334d;
- overflow: auto;
- background-image: url(../images/background_recipes.svg);
- background-position: center;
- background-size: cover;
+
+.recipes {
+  display: block;
+  background-color: #1f334d;
+  overflow: auto;
+  background-image: url(../images/background_recipes.svg);
+  background-position: center;
+  background-size: cover;
 }
-.recipes__title{
-max-width: 580px;
-display: flex;
-margin-left: 80px;
-margin-top: 100px;
-color: white;
-font-style: normal;
-font-weight: 500;
-font-size: 44px;
-line-height: 52px;
+
+.recipes__title {
+  max-width: 580px;
+  display: flex;
+  margin-left: 80px;
+  margin-top: 100px;
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
 }
-.recipes__subtitle{
-color: white;
-margin-left: 80px;
-margin-top: 24px;
-font-family: "Noto Serif";
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 30px;
-max-width: 438px;
+
+.recipes__subtitle {
+  color: white;
+  margin-left: 80px;
+  margin-top: 24px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 438px;
 }
-.iframe__video{
-  border:none;
+
+.recipes__iframe {
+  border: none;
 }
-.videos__block{
+
+.recipes__videos-block {
   display: flex;
   justify-content: center;
   gap: 40px;
-margin-top: 80px;
-margin-bottom: 215px;
+  margin-top: 80px;
+  margin-bottom: 215px;
 }
-.video{
-display: flex;
-color: white;
-gap: 40px;
-justify-content: center;
-flex-direction: column;
+
+.video {
+  display: flex;
+  color: white;
+  gap: 40px;
+  justify-content: center;
+  flex-direction: column;
 }
-.video__info{
+
+.video__info {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -176,10 +197,10 @@ flex-direction: column;
   position: relative;
   bottom: 10%;
 }
-.video__description{
-  font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 30px;
-}
 
+.video__description {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
