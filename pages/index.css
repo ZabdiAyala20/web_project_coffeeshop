@@ -151,14 +151,17 @@ font-size: 20px;
 line-height: 30px;
 max-width: 438px;
 }
-.videos{
+.iframe__video{
+  border:none;
+}
+.videos__block{
   display: flex;
   justify-content: center;
   gap: 40px;
 margin-top: 80px;
 margin-bottom: 215px;
 }
-.video__block{
+.video{
 display: flex;
 color: white;
 gap: 40px;
