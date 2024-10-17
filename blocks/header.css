@@ -1,0 +1,128 @@
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  position: relative;
+  box-sizing: border-box;
+  background-image: url(../images/background_header.svg);
+  background-size: cover;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  display: flex;
+  justify-items: flex-start;
+  width: 105px;
+  height: 39px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.nav__links {
+  display: flex;
+  margin-top: 30px;
+  margin-right: 80px;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header__content {
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+.header__title {
+  max-width: 709px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: 1px;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+
+.header__span-blue {
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2F80ED;
+  font-style: italic;
+}
+
+.header__description {
+  max-width: 683px;
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+.header__image-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.header__image {
+  max-width: fit-content;
+  width: 646px;
+  max-width: 636px;
+  max-height: 568px;
+}
+
+.header__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 80px;
+}
+
+.header__shedules {
+  padding: 0;
+  flex-direction: column;
+  list-style-type: none;
+  display: flex;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  margin-bottom: 40px;
+}
+
+.header__address {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+}
+
+.header__paragraph {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
