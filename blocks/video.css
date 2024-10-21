@@ -1,0 +1,25 @@
+
+.video {
+    display: flex;
+    color: white;
+    gap: 40px;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .video__info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: 10%;
+  }
+  
+  .video__description {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  
