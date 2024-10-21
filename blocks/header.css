@@ -48,23 +48,22 @@
   margin-top: 10px;
 }
 .header__image-container {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 20px;
+position: relative;
+left: 60%;
+bottom: 40%;
 }
 
 .header__image {
-  max-width: fit-content;
   width: 646px;
   max-width: 636px;
   max-height: 568px;
 }
 
 .header__footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: 80px;
+position: relative;
+display: flex;
+justify-content: space-between;
+bottom: 35%;
 }
 
 .header__shedules {
