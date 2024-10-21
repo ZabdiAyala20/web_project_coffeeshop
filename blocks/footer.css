@@ -28,7 +28,16 @@ width: 105px;
 height: 39px;
 z-index: 10;
 }
-
+.list{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 16px;
+}
+.footer__social{
+  display: flex;
+  flex-direction: column;
+  }
 .footer__copyright{
   margin-left: 80px;
   margin-bottom: 60px;
