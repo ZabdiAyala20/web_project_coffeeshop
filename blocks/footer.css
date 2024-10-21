@@ -11,21 +11,21 @@
   display: flex;
   justify-content: space-between;
   margin: 60px 80px 108px 80px;
-  z-index: 10px;
 }
 .footer__blue-circule{
   background-color: #2F80ED;
-    width: 100px;
-    height: 100px;
+    width: 340px;
+    height: 340px;
     border-radius: 50%;
     position: absolute;
-    z-index:0;
-    transform: translateX(-50%);
-
+    z-index:1;
+    top: -128px;
+  left: -44px;
 }
 .logo{
 width: 105px;
 height: 39px;
+z-index: 4;
 }
 .social-heading{
   margin-top: 0;
